@@ -4,4 +4,5 @@
 
 @section('content')
     @include('partials.index.main')
+    @include('partials.index.about')
 @endsection
