@@ -1,4 +1,4 @@
-<section class="services">
+<section class="services container">
     <div class="title">Services</div>
     <div class="largTitle">What we do offer</div>
     <div class="owlSection">
