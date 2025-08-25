@@ -1,0 +1,26 @@
+/* Variables */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: var(--font-family);
+    background-color: #1b103e;
+    color: var(--light-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
