@@ -30,9 +30,14 @@
                         <div class="txt">Clients</div>
                     </div>
                 </div>
-                <p class="dis2 mt-4 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi nam amet aliquam rerum itaque
+                <p class="position-relative dis2 mt-4 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi nam amet aliquam rerum itaque
                     nobis odio explicabo ipsum? Non eius fugiat corporis incidunt, ullam eligendi praesentium libero
                     accusantium tempore.</p>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-12 d-flex justify-content-end">
+                <img src="{{asset('assets/imgs/2395528_139721.png')}}" alt="">
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
-#aboutSection {
+/* #aboutSection {
     background: linear-gradient(180deg, rgba(27, 16, 62, 1) 56%, rgba(30, 60, 106, 1) 90%);
-}
+} */
 
 #aboutSection .imageAndTitle {
     font-size: 2rem;
@@ -9,7 +9,9 @@
 #aboutSection .aboutTitle {
     font-family: var(--main-font);
 }
-
+.aboutSectiontwo{
+    font-family: var(--secondary-font);
+}
 .aboutSectiontwo p {
     font-size: larger;
 }
@@ -21,6 +23,11 @@
     margin-bottom: 10px;
     width: 100%;
 }
-.aboutSectiontwo .dis2{
-
+.aboutSectiontwo .dis2::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    border-radius: 12px;
+    left: 0;
 }
