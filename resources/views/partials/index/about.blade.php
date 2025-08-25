@@ -9,23 +9,23 @@
             </div>
         </div>
         <div class="col-md-9">
-            <div class="aboutSectiontwo">
+            <div class="aboutSectiontwo d-flex flex-column h-100 justify-content-center">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero voluptatibus hic accusamus
-                    natus ratione nihil mollitia commodi aspernatur cumque, sint possimus eveniet sit aperiam vitae
+                    natus ratione nihil mollitia commodi aspernatur cumque, sint poss imus eveniet sit aperiam vitae
                     obcaecati dolorem tempora? Libero?</p>
-                <div class="numLineTxtSection">
+                <div class="d-flex gap-5 numLineTxtSection">
                     <div class="numLineTxt">
-                        <div class="num">+200</div>
+                        <div class="fa-2x font-monospace num">+200</div>
                         <div class="line"></div>
                         <div class="txt">Employee</div>
                     </div>
                     <div class="numLineTxt">
-                        <div class="num">+500</div>
+                        <div class="fa-2x font-monospace num">+500</div>
                         <div class="line"></div>
                         <div class="txt">Projects</div>
                     </div>
                     <div class="numLineTxt">
-                        <div class="num">+300</div>
+                        <div class="fa-2x font-monospace num">+300</div>
                         <div class="line"></div>
                         <div class="txt">Clients</div>
                     </div>

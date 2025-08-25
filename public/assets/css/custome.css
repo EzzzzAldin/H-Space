@@ -1,3 +1,23 @@
+#aboutSection {
+    background: linear-gradient(180deg, rgba(27, 16, 62, 1) 56%, rgba(30, 60, 106, 1) 90%);
+}
+
 #aboutSection .imageAndTitle {
     font-size: 2rem;
+}
+
+#aboutSection .aboutTitle {
+    font-family: var(--main-font);
+}
+
+.aboutSectiontwo p {
+    font-size: larger;
+}
+
+.aboutSectiontwo .line {
+    height: 5px;
+    background-color: #7e6dea;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: 100%;
 }
