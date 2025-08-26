@@ -6,38 +6,88 @@
     <div class="swiper swiperSection1">
         <div class="swiper-wrapper">
             <div class="swiper-slide item">
-                <div class="">
-                    <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
+                    <div class="ship">
+                        <div class="shipHeader">
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="squer"></div>
+                        </div>
+                        <div class="shipBody">
+                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                        </div>
+                    </div>
                     <div class="dis">Web<br>Development</div>
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="">
-                    <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
+                    <div class="ship">
+                        <div class="shipHeader">
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="squer"></div>
+                        </div>
+                        <div class="shipBody">
+                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                        </div>
+                    </div>
                     <div class="dis">Web<br>Development</div>
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="">
-                    <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
+                    <div class="ship">
+                        <div class="shipHeader">
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="squer"></div>
+                        </div>
+                        <div class="shipBody">
+                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                        </div>
+                    </div>
                     <div class="dis">Web<br>Development</div>
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="">
-                    <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
+                    <div class="ship">
+                        <div class="shipHeader">
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="squer"></div>
+                        </div>
+                        <div class="shipBody">
+                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                        </div>
+                    </div>
                     <div class="dis">Web<br>Development</div>
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="">
-                    <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
+                    <div class="ship">
+                        <div class="shipHeader">
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="ball"></div>
+                            <div class="squer"></div>
+                        </div>
+                        <div class="shipBody">
+                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                        </div>
+                    </div>
                     <div class="dis">Web<br>Development</div>
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
                 </div>
             </div>
         </div>

@@ -35,3 +35,11 @@
     left: 0;
     background-color: #f3f0f0;
 }
+
+.swiperItem {
+    background-color: white;
+    border-radius: 10px;
+    color: #cc2af3;
+    font-weight: bold;
+    height: 240px;
+}
