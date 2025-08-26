@@ -76,12 +76,12 @@ body {
     transform: translateY(-50%);
     width: 0;
     height: 3px;
-    background: linear-gradient(
-        100deg,
-        rgba(255, 0, 199, 0.75) 0%,
-        rgba(110, 58, 255, 1) 45%,
-        rgba(30, 91, 135, 1) 100% /* 1E5B87 solid */
-    );
+    background: linear-gradient(100deg,
+            rgba(255, 0, 199, 0.75) 0%,
+            rgba(110, 58, 255, 1) 45%,
+            rgba(30, 91, 135, 1) 100%
+            /* 1E5B87 solid */
+        );
     border-radius: 2px;
     transition: width 0.4s ease;
 }
@@ -93,12 +93,10 @@ body {
     transform: translateY(-50%);
     width: 13px;
     height: 13px;
-    background: linear-gradient(
-        100deg,
-        rgba(255, 0, 199, 0.75) 0%,
-        rgba(110, 58, 255, 1) 0%,
-        rgba(30, 91, 135, 1) 100%
-    );
+    background: linear-gradient(100deg,
+            rgba(255, 0, 199, 0.75) 0%,
+            rgba(110, 58, 255, 1) 0%,
+            rgba(30, 91, 135, 1) 100%);
     border-radius: 50%;
     opacity: 0;
     transition: opacity 0.4s ease, left 0.4s ease;
@@ -167,12 +165,10 @@ body {
 }
 
 .main-title {
-    background: linear-gradient(
-        100deg,
-        rgba(255, 0, 199, 0.75) 0%,
-        rgba(124, 78, 255, 1) 57%,
-        rgba(33, 150, 243, 1) 100%
-    );
+    background: linear-gradient(100deg,
+            rgba(255, 0, 199, 0.75) 0%,
+            rgba(124, 78, 255, 1) 57%,
+            rgba(33, 150, 243, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: block;
@@ -187,17 +183,15 @@ body {
 .main-title::after {
     content: "";
     position: absolute;
-    left: -50%;
+    left: -110px;
     top: 50%;
     transform: translateY(-50%);
     width: 88px;
     height: 3px;
-    background: linear-gradient(
-        100deg,
-        rgba(255, 0, 199, 0.75) 0%,
-        rgba(110, 58, 255, 1) 45%,
-        rgba(30, 91, 135, 1) 100%
-    );
+    background: linear-gradient(100deg,
+            rgba(255, 0, 199, 0.75) 0%,
+            rgba(110, 58, 255, 1) 45%,
+            rgba(30, 91, 135, 1) 100%);
     border-radius: 2px;
     transition: width 0.4s ease;
 }
@@ -209,14 +203,12 @@ body {
     transform: translateY(-50%);
     width: 13px;
     height: 13px;
-    background: linear-gradient(
-        100deg,
-        rgba(255, 0, 199, 0.75) 0%,
-        rgba(110, 58, 255, 1) 45%,
-        rgba(30, 91, 135, 1) 100%
-    );
+    background: linear-gradient(100deg,
+            rgba(255, 0, 199, 0.75) 0%,
+            rgba(110, 58, 255, 1) 45%,
+            rgba(30, 91, 135, 1) 100%);
     border-radius: 50%;
-    left: -12%;
+    left: -22px;
 }
 
 .main-info p {
@@ -288,6 +280,7 @@ body {
     font-weight: 400;
     color: #1e1e1e;
 }
+
 .author-details p {
     margin: 0;
     font-size: 12px;
@@ -319,7 +312,9 @@ body {
 /* ======================================= */
 @media (min-width: 768px) {
     .swiper-slide:nth-child(odd) .testimonial-card {
-        transform: translateY(40px); /* حرك الكارد التاني لتحت 40 بكسل */
+        transform: translateY(40px);
+        /* حرك الكارد التاني لتحت 40 بكسل */
     }
 }
+
 /* ======================================= */
