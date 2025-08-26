@@ -25,6 +25,8 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/custome.css') }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     @stack('styles')
 </head>
 
@@ -80,6 +82,28 @@
             sections.forEach(section => {
                 observer.observe(section);
             });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.testimonials-slider', {
+            loop: true,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                }
+            }
         });
     </script>
     @stack('scripts')

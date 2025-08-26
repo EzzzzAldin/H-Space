@@ -19,17 +19,17 @@
             </a>
         </li>
         <li>
-            <a class="d-flex align-items-center text-decoration-none" href="https://wa.me/+9660538812083">
+            <a class="d-flex align-items-center text-decoration-none" href="#">
                 Work
             </a>
         </li>
         <li>
-            <a class="d-flex align-items-center text-decoration-none" href="https://wa.me/+9660538812083">
+            <a class="d-flex align-items-center text-decoration-none" href="#">
                 Contact
             </a>
         </li>
         <li>
-            <a class="d-flex align-items-center text-decoration-none" href="https://wa.me/+9660538812083">
+            <a class="d-flex align-items-center text-decoration-none" href="#">
                 About
             </a>
         </li>
