@@ -334,3 +334,9 @@ body {
 .main-projects .main-title {
     font-size: 1.5rem;
 }
+
+.main-projects .btn-app {
+    font-family: var(--secondary-font);
+    color: #fff;
+    font-weight: 600;
+}
