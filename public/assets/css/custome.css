@@ -36,10 +36,85 @@
     background-color: #f3f0f0;
 }
 
+.swiperSection1 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
 .swiperItem {
     background-color: white;
     border-radius: 10px;
-    color: #cc2af3;
+    color: #7e6dea;
     font-weight: bold;
     height: 240px;
+    transition: 0.5s;
+}
+
+.services .ship {
+    padding: 0px 20px;
+}
+
+.services .ship .shipHeader {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background-color: #7e6dea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .ship .shipHeader .ballsAndSquer {
+    height: 10px;
+    width: 100%;
+    background-color: #cc2af3;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+}
+
+.services .ship .shipHeader .shipBody {
+    bottom: -5px;
+}
+
+.services .ship .shipHeader .ball {
+    width: 5px;
+    background-color: white;
+    height: 5px;
+    border-radius: 100%;
+}
+
+.services .ship .shipHeader .squer {
+    width: 20px;
+    background-color: white;
+    height: 5px;
+}
+
+.services .dis {
+    padding: 0px 20px;
+}
+
+.services .swiperItem .icon {
+    padding: 0px 20px;
+}
+
+.services .swiperItem .arrowicon {
+    width: 30px;
+    height: 30px;
+    background-color: #7e6dea;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100%;
+    rotate: 225deg;
+}
+
+.swiperSection1 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }

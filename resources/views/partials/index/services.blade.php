@@ -6,88 +6,108 @@
     <div class="swiper swiperSection1">
         <div class="swiper-wrapper">
             <div class="swiper-slide item">
-                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
-                    <div class="ship">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem swiperItemServ">
+                    <div class="ship w-100 position-relative">
                         <div class="shipHeader">
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="squer"></div>
-                        </div>
-                        <div class="shipBody">
-                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            <div class="ballsAndSquer">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="squer"></div>
+                            </div>
+                            <div class="shipBody position-relative">
+                                <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="dis">Web<br>Development</div>
-                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    <div class="dis w-100">Web<br>Development</div>
+                    <div class="d-flex icon justify-content-end w-100 ">
+                        <div class="arrowicon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
-                    <div class="ship">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem swiperItemServ">
+                    <div class="ship w-100 position-relative">
                         <div class="shipHeader">
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="squer"></div>
-                        </div>
-                        <div class="shipBody">
-                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            <div class="ballsAndSquer">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="squer"></div>
+                            </div>
+                            <div class="shipBody position-relative">
+                                <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="dis">Web<br>Development</div>
-                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    <div class="dis w-100">Web<br>Development</div>
+                    <div class="d-flex icon justify-content-end w-100">
+                        <div class="arrowicon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
-                    <div class="ship">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem swiperItemServ">
+                    <div class="ship w-100 position-relative">
                         <div class="shipHeader">
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="squer"></div>
-                        </div>
-                        <div class="shipBody">
-                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            <div class="ballsAndSquer">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="squer"></div>
+                            </div>
+                            <div class="shipBody position-relative">
+                                <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="dis">Web<br>Development</div>
-                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    <div class="dis w-100">Web<br>Development</div>
+                    <div class="d-flex icon justify-content-end w-100 ">
+                        <div class="arrowicon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
-                    <div class="ship">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem swiperItemServ">
+                    <div class="ship w-100 position-relative">
                         <div class="shipHeader">
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="squer"></div>
-                        </div>
-                        <div class="shipBody">
-                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            <div class="ballsAndSquer">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="squer"></div>
+                            </div>
+                            <div class="shipBody position-relative">
+                                <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="dis">Web<br>Development</div>
-                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    <div class="dis w-100">Web<br>Development</div>
+                    <div class="d-flex icon justify-content-end w-100 ">
+                        <div class="arrowicon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide item">
-                <div class="align-items-center d-flex flex-column justify-content-around swiperItem">
-                    <div class="ship">
+                <div class="align-items-center d-flex flex-column justify-content-around swiperItem swiperItemServ">
+                    <div class="ship w-100 position-relative">
                         <div class="shipHeader">
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="ball"></div>
-                            <div class="squer"></div>
-                        </div>
-                        <div class="shipBody">
-                            <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            <div class="ballsAndSquer">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="squer"></div>
+                            </div>
+                            <div class="shipBody position-relative">
+                                <img src="{{ asset('assets/imgs/Group 237615.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="dis">Web<br>Development</div>
-                    <div class="icon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    <div class="dis w-100">Web<br>Development</div>
+                    <div class="d-flex icon justify-content-end w-100 ">
+                        <div class="arrowicon"><i class="fa-solid fa-arrow-down-long"></i></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,7 +124,7 @@
             },
             breakpoints: {
                 768: {
-                    slidesPerView: 4,
+                    slidesPerView: 5,
                     spaceBetween: 30
                 },
                 0: {
@@ -113,5 +133,34 @@
                 }
             }
         });
+        $('.swiperItemServ').hover(
+            function() {
+                // 'this' refers to the hovered element
+                $(this).css({
+                    'background-color': '#7e6dea',
+                    'color': 'white',
+                    'transform': 'scale(1.2)'
+                });
+
+                $(this).find('.shipHeader').css('background-color', '#dfdafa');
+                $(this).find('.arrowicon').css({
+                    'background-color': 'white',
+                    'color': '#7e6dea'
+                });
+            },
+            function() {
+                $(this).css({
+                    'background-color': 'white',
+                    'color': '#7e6dea',
+                    'transform': 'scale(1)'
+                });
+
+                $(this).find('.shipHeader').css('background-color', '#7e6dea');
+                $(this).find('.arrowicon').css({
+                    'background-color': '#7e6dea',
+                    'color': 'white'
+                });
+            }
+        );
     </script>
 @endpush
