@@ -86,6 +86,7 @@
         const swiper = new Swiper('.testimonials-slider', {
             loop: true,
             spaceBetween: 30,
+
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -101,7 +102,6 @@
                 }
             }
         });
-
     </script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
     @stack('scripts')
