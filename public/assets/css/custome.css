@@ -122,6 +122,40 @@
 .main-projects img {
     height: 100%;
 }
-.main-projects .the3images {
-    height: 135px;
+
+/* .main-projects .the3images {
+    height: 160px;
+} */
+
+.main-projects .imageL {
+    height: 295px;
+}
+
+/* .proBackground {
+    background: rgba(104, 28, 140, 0.44);
+    background: radial-gradient(circle, rgba(104, 28, 140, 0.7) 0%, rgba(192, 40, 231, 0.08) 100%);
+} */
+.main-projects button {
+    transition: 0.5s;
+}
+
+.main-projects button.active {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    transition: 0.5s;
+    background-color: #27b6e3;
+    color: white;
+    font-weight: bold;
+    font-family: revert;
+}
+
+.main-projects button.active:hover {
+    transform: scale(0.9);
+}
+
+.main-projects button:hover {
+    background-color: #27b6e3;
+    color: white;
+    transform: scale(0.9);
 }
