@@ -118,3 +118,10 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.main-projects img {
+    height: 100%;
+}
+.main-projects .the3images {
+    height: 135px;
+}
