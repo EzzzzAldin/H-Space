@@ -87,10 +87,10 @@
             loop: true,
             spaceBetween: 30,
 
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
             breakpoints: {
                 768: {
                     slidesPerView: 2,
@@ -102,7 +102,6 @@
                 }
             }
         });
-        
     </script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
     @stack('scripts')

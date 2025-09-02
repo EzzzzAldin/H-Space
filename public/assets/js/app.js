@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
             delay: 3000,
             disableOnInteraction: false,
         },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+        // pagination: {
+        //     el: '.swiper-pagination',
+        //     clickable: true,
+        // },
         breakpoints: {
             0: {
                 slidesPerView: 1,

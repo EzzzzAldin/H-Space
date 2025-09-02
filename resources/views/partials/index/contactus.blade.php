@@ -39,7 +39,7 @@
                         class="d-flex flex-column w-50 contactUsFromInputs align-items-center pt-4 pb-4 gap-3">
                         <input type="text" placeholder="Name" class="w-75 p-2 inputs">
                         <input type="text" placeholder="Phone" class="w-75 p-2 inputs">
-                        <textarea name="" id="" cols="10" rows="10" placeholder="Message" class="w-75 p-2 inputs"></textarea>
+                        <textarea name="" id="" cols="10" rows="6" placeholder="Message" class="w-75 p-2 inputs"></textarea>
                         <button class="w-75 p-2">Send</button>
                     </form>
                 </div>
