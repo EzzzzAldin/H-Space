@@ -13,97 +13,132 @@
                 <div class="swiper team-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">
-                                    I am very proud of the team at DevDimensions, they are a very smart group of people
-                                    and
-                                    I highly recommend them.
-                                </p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>Paul McGuire</h4>
-                                        <p>Co-founder & CEO, Tru.id</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img
+                                        src="{{ asset('assets/imgs/expressive-pretty-woman-posing 2.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">Zane Sorell</div>
+                                <div class="postion">CEO</div>
+                                <div class="dis">Enjoys adventurous travel, seeks new cultures and offbeat
+                                    destinations</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">
-                                    I am very proud of the team at DevDimensions, they are a very smart group of people
-                                    and
-                                    I highly recommend them.
-                                </p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>Paul McGuire</h4>
-                                        <p>Co-founder & CEO, Tru.id</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img src="{{ asset('assets/imgs/Frame 1000004271.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">Maya Mathy</div>
+                                <div class="postion">Founder</div>
+                                <div class="dis">Pop music lover, seeks joy and exciting pop concerts</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">
-                                    I am very proud of the team at DevDimensions, they are a very smart group of people
-                                    and
-                                    I highly recommend them.
-                                </p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>Tilly Firth</h4>
-                                        <p>Co-founder & CEO, Impala</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img src="{{ asset('assets/imgs/Frame 1000004273.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">Alexis Jensen</div>
+                                <div class="postion">CTO</div>
+                                <div class="dis">Bookworm, creative software developer with precision</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">كان العمل معهم تجربة رائعة. الدقة في المواعيد والاهتمام بالتفاصيل جعل
-                                    المشروع ينجح بشكل فاق توقعاتي.</p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>John Doe</h4>
-                                        <p>Project Manager, TechCorp</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img src="{{ asset('assets/imgs/Team Avatar.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">Keira Battye</div>
+                                <div class="postion">Product Designer</div>
+                                <div class="dis">Creative painter capturing beauty with imaginative artwork</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">دعم فني سريع ومتعاون، وجودة في التنفيذ. لقد ساعدونا في تحقيق أهدافنا
-                                    التقنية بكفاءة عالية.</p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>Jane Smith</h4>
-                                        <p>Marketing Head, Innovate Ltd.</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img
+                                        src="{{ asset('assets/imgs/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair 2.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">James Vial</div>
+                                <div class="postion">Head of Front-End</div>
+                                <div class="dis">Culinary artist, explores diverse flavors, skilled in cooking</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="swiper-slide">
-                            <div class="">
-                                <p class="quote">دعم فني سريع ومتعاون، وجودة في التنفيذ. لقد ساعدونا في تحقيق أهدافنا
-                                    التقنية بكفاءة عالية.</p>
-                                <div class="author-info">
-
-                                    <div class="author-details text-start">
-                                        <h4>Jane Smith</h4>
-                                        <p>Marketing Head, Innovate Ltd.</p>
-                                    </div>
+                            <div class="align-items-center d-flex flex-column gap-3 p-2 teamItem text-center">
+                                <div class="image"><img
+                                        src="{{ asset('assets/imgs/expressive-pretty-woman-posing 2.png') }}"
+                                        alt=""></div>
+                                <div class="font-bold name">Zane Sorell</div>
+                                <div class="postion">CEO</div>
+                                <div class="dis">Enjoys adventurous travel, seeks new cultures and offbeat
+                                    destinations</div>
+                                <div class="d-flex gap-3 icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>

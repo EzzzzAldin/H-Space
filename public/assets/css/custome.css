@@ -159,3 +159,85 @@
     color: white;
     transform: scale(0.9);
 }
+
+.slideForTeam .teamItem {
+    font-family: 'Sora';
+}
+
+.slideForTeam .teamItem .dis {
+    font-size: small;
+
+}
+
+.slideForTeam .teamItem .postion {
+    color: #27b6e3;
+
+}
+
+.contactUSSection .infos {
+    font-family: 'Sora';
+}
+
+.contactUsFromInputs {
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: "Sora";
+}
+
+.contactUsFromInputs .inputs {
+    background-color: #c9edf8;
+    border-radius: 10px;
+    border: none;
+}
+
+.contactUsFromInputs button {
+    border: none;
+    background-color: #27b6e3;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+.contactUsFromInputs button:hover {
+    transform: scale(0.9);
+}
+
+.footerContent {
+    height: 20rem;
+    background-color: #1b113f;
+    padding-top: 30px;
+    font-family: "Sora";
+}
+
+.footerContent .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.footerContent .menu .title {
+    opacity: 0.7;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.footerContent .icons a {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #2d244e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.tarmsAndPolicyS {
+    font-size: x-small;
+    opacity: 0.7;
+}
+
+.tarmsAndPolicyS .tarmsAndPolicy a {
+    text-decoration: none;
+    color: white;
+}
