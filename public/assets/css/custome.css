@@ -6,6 +6,12 @@
     font-size: 2rem;
 }
 
+.imageAndTitle img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 #aboutSection .aboutTitle {
     font-family: var(--main-font);
 }
@@ -19,7 +25,7 @@
 }
 
 .aboutSectiontwo .line {
-    height: 5px;
+    height: 12px;
     background-color: #7e6dea;
     border-radius: 12px;
     margin-bottom: 10px;
@@ -161,21 +167,19 @@
 }
 
 .slideForTeam .teamItem {
-    font-family: 'Sora';
+    font-family: "Sora";
 }
 
 .slideForTeam .teamItem .dis {
     font-size: small;
-
 }
 
 .slideForTeam .teamItem .postion {
     color: #27b6e3;
-
 }
 
 .contactUSSection .infos {
-    font-family: 'Sora';
+    font-family: "Sora";
 }
 
 .contactUsFromInputs {
@@ -240,4 +244,23 @@
 .tarmsAndPolicyS .tarmsAndPolicy a {
     text-decoration: none;
     color: white;
+}
+
+.font-monospace {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .aboutSectiontwo p {
+        font-size: 0.8rem;
+    }
+
+    .aboutSectiontwo .w-75 {
+        width: 100% !important;
+    }
+
+    .main-info p {
+        font-size: 2rem;
+    }
 }
