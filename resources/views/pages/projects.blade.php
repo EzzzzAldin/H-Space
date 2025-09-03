@@ -1,20 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'About Us')
+@section('title', 'Products')
 
 @section('content')
-    <div class="container">
-        <div class="main-info">
-            <h2 class="main-title text-center">Projects</h2>
-            <p class="text-center mt-3">Our Work</p>
-        </div>
-        <div class="worksSection">
-            <div class="navFillter">
-                <button>Web Application</button>
-                <button>Web Application</button>
-                <button>Web Application</button>
-                <button>Web Application</button>
-            </div>
+    <div class="mainBackground position-relative">
+        <img class="h-100 position-absolute w-100 z-0" src="{{ asset('assets/imgs/Homebghgfh.png') }}" alt=""
+            style="top: 10rem; object-fit: cover;">
+        <div class="position-relative z-1">
+            @include('livewire.projects')
         </div>
     </div>
 @endsection
