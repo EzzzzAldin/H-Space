@@ -25,7 +25,11 @@
 /* Body */
 body {
     font-family: var(--main-font);
-    background-color: #1b103e;
+    /* background-color: #1b103e; */
+    background-image: url("../imgs/Homebghgfh.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: var(--light-color);
     line-height: 1.6;
     overflow-x: hidden;

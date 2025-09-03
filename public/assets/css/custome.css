@@ -6,6 +6,12 @@
     font-size: 2rem;
 }
 
+.imageAndTitle img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 #aboutSection .aboutTitle {
     font-family: var(--main-font);
 }
@@ -19,7 +25,7 @@
 }
 
 .aboutSectiontwo .line {
-    height: 5px;
+    height: 12px;
     background-color: #7e6dea;
     border-radius: 12px;
     margin-bottom: 10px;
@@ -161,21 +167,19 @@
 }
 
 .slideForTeam .teamItem {
-    font-family: 'Sora';
+    font-family: "Sora";
 }
 
 .slideForTeam .teamItem .dis {
     font-size: small;
-
 }
 
 .slideForTeam .teamItem .postion {
     color: #27b6e3;
-
 }
 
 .contactUSSection .infos {
-    font-family: 'Sora';
+    font-family: "Sora";
 }
 
 .contactUsFromInputs {
@@ -242,49 +246,21 @@
     color: white;
 }
 
-.worksSection .navFillter {
-    border: 1px solid;
-    border-radius: 10px;
-    border-color: #7e6dea;
-}
-
-.worksSection .navFillter button.active {
-    background-color: #7e6dea;
-}
-
-.worksSection .navFillter button {
-    background: none;
-    color: white;
-    border: none;
-    font-size: larger;
-    padding: 10px;
-    font-family: 'Sora';
-    border-right: 1px solid;
-    border-right-color: #7e6dea;
-}
-
-.worksSection .navFillter button:last-child {
-    border: none;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.worksSection .navFillter button:first-child {
-    border: none;
-    border-radius: 10px 0px 0px 10px;
-
-}
-
-.seeMoreBtn button {
-    padding: 10px 30px;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Sora';
-    background-color: #27b6e3;
-    color: white;
+.font-monospace {
+    font-size: 3rem;
     font-weight: bold;
-    transition: 0.5s;
 }
 
-.seeMoreBtn button:hover {
-    transform: scale(0.9);
+@media (max-width: 768px) {
+    .aboutSectiontwo p {
+        font-size: 0.8rem;
+    }
+
+    .aboutSectiontwo .w-75 {
+        width: 100% !important;
+    }
+
+    .main-info p {
+        font-size: 2rem;
+    }
 }
