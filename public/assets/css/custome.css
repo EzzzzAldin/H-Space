@@ -267,7 +267,7 @@
     border: none;
     font-size: larger;
     padding: 10px;
-    font-family: 'Sora';
+    font-family: "Sora";
     border-right: 1px solid;
     border-right-color: #7e6dea;
 }
@@ -280,14 +280,13 @@
 .worksSection .navFillter button:first-child {
     border: none;
     border-radius: 10px 0px 0px 10px;
-
 }
 
 .seeMoreBtn button {
     padding: 10px 30px;
     border: none;
     border-radius: 10px;
-    font-family: 'Sora';
+    font-family: "Sora";
     background-color: #27b6e3;
     color: white;
     font-weight: bold;
