@@ -139,7 +139,7 @@
                 $(this).css({
                     'background-color': '#7e6dea',
                     'color': 'white',
-                    'transform': 'scale(1)'
+                    'transform': 'scale(1.2)'
                 });
 
                 $(this).find('.shipHeader').css('background-color', '#dfdafa');
