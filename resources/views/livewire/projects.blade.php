@@ -5,8 +5,8 @@
     </div>
     <div class="align-items-center d-flex flex-column gap-5 worksSection">
         <div class="d-flex justify-content-around navFillter w-75">
+            <button class="flex-grow-1 ">Web Application</button>
             <button class="flex-grow-1 active">Web Application</button>
-            <button class="flex-grow-1">Web Application</button>
             <button class="flex-grow-1">Web Application</button>
             <button class="flex-grow-1">Web Application</button>
         </div>
