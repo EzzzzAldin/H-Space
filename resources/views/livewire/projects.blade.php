@@ -19,7 +19,7 @@
             <div class="col-md-3 pb-5"><img src="{{ asset('assets/imgs/Rectangle 1324.png') }}" alt=""></div>
             <div class="col-md-3 pb-5"><img src="{{ asset('assets/imgs/Rectangle 1324.png') }}" alt=""></div>
             <div class="col-md-3 pb-5"><img src="{{ asset('assets/imgs/Rectangle 1324.png') }}" alt=""></div>
-            <div class="col-md-3 pb-5"><img src="{{ asset('assets/imgs/Rectangle 1324.png') }}" alt=""></div>
+            
             <div class="col-md-12 d-flex justify-content-around mb-5 seeMoreBtn"><button>See More..</button></div>
         </div>
     </div>
